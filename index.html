@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Chivo:ital,wght@0,100..900;1,100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./design/styles.css" />
+
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="desktop-image">
+      <img
+        src="./images/bg-pattern-desktop.svg"
+        alt=""
+        id="desktop-shadow"
+      />
+      <div id="desktop-woman">
+        <img
+        src="./images/illustration-woman-online-desktop.svg"
+        alt=""
+        id="desktop-woman-back"
+        />
+        <img src="./images/illustration-box-desktop.svg" alt="" id="box">
+        <div id="prueba"></div>
+      </div>
+    </div>
+    
+    <div id="container">
+      <!-- <img src="./images/illustration-box-desktop.svg" alt="" id="box"> -->
+
+      <div id="card">
+        <div id="images">
+          <!-- <div id="desktop-image">
+            <img
+              src="./images/bg-pattern-desktop.svg"
+              alt=""
+              id="desktop-shadow"
+            />
+            <div id="desktop-woman">
+              <img
+              src="./images/illustration-woman-online-desktop.svg"
+              alt=""
+              id=""
+              />
+              <img src="./images/illustration-box-desktop.svg" alt="" id="box">
+              <div id="prueba"></div>
+            </div>
+          </div> -->
+          <div id="mobile-image">
+            <img
+              src="./images/bg-pattern-mobile.svg"
+              alt=""
+              id="mobile-shadow"
+            />
+            <img
+              src="./images/illustration-woman-online-mobile.svg"
+              alt=""
+              id="mobile-woman"
+            />
+          </div>
+        </div>
+
+        
+        <div id="questions">
+          <h1>FAQ</h1>
+          <div class="question-div">
+            <div class="question">
+              <p class="question-text">How many team members can I invite?</p>
+              <img src="./images/icon-arrow-down.svg" alt="Arrow" class="arrow" />
+            </div>
+            <p class="responses">
+              You can invite up to 2 additional users on the Free plan. There is
+              no limit on team members for the Premium plan.
+            </p>
+            <hr />
+          </div>
+          <div class="question-div">
+            <div class="question">
+              <p class="question-text">What is the maximum file upload size?</p>
+              <img src="./images/icon-arrow-down.svg" alt="Arrow" class="arrow" />
+            </div>
+            <p class="responses">
+              No more than 2GB. All files in your account must fit your allotted
+              storage space.
+            </p>
+            <hr />
+          </div>
+          <div class="question-div">
+            <div class="question">
+              <p class="question-text">How do I reset my password?</p>
+              <img src="./images/icon-arrow-down.svg" alt="Arrow" class="arrow" />
+            </div>
+            <p class="responses">
+              Click “Forgot password” from the login page or “Change password”
+              from your profile page. A reset link will be emailed to you.
+            </p>
+            <hr />
+          </div>
+          <div class="question-div">
+            <div class="question">
+              <p class="question-text">Can I cancel my subscription?</p>
+              <img src="./images/icon-arrow-down.svg" alt="Arrow" class="arrow" />
+            </div>
+            <p class="responses">
+              Yes! Send us a message and we'll process your request no questions
+              asked.
+            </p>
+            <hr />
+          </div>
+          <div class="question-div">
+            <div class="question">
+              <p class="question-text">Do you provide additional support?</p>
+              <img src="./images/icon-arrow-down.svg" alt="Arrow" class="arrow" />
+            </div>
+            <p class="responses">
+              Chat and email support is available 24/7. Phone lines are open
+              during normal business hours.
+            </p>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <p href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <p href="#">Your Name Here</p>.
+    </div>
+
+    <script src="./scripts/app.js"></script>
+  </body>
+</html>
